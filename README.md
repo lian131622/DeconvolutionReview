@@ -31,7 +31,6 @@ The `.ipynb` file demonstrates and compares deconvolution algorithms on US and T
 
 ### Folder Structure
 
-- `Scripts/` - Main scripts for signal generation, deconvolution, and analysis.
 - `Data/` - Example data files (not included).
 - `Deconvolution/` - Algorithm implementations.
 - `README.md` - Project overview and instructions.
