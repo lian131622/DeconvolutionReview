@@ -9,29 +9,29 @@ This repository provides a comprehensive review and implementation of deconvolut
 - **Deconvolution Algorithms**: Implement and compare multiple state-of-the-art algorithms.
 - **Performance Metrics**: Evaluate algorithms using metrics like Time of Flight (ToF) error, amplitude error, and delay estimation.
 - **Visualization**: Plot and analyze results for deeper insights.
-### Demo
-The `.ipynb` file demonstrates and compares deconvolution algorithms on US and THz NDE signals with visualization.
 
+### Demo
+
+The `.ipynb` file demonstrates and compares deconvolution algorithms on US and THz NDE signals with visualization.
 
 ### Getting Started
 
-1. **Requirements**:  
-   - Python 3.x  
+1. **Requirements**:
+
+   - Python 3.x
    - `numpy`, `scipy`, `matplotlib`, `tqdm`
-
-2. **Data**:  
+2. **Data**:
    Place your `.mat` data files in the `Data/` directory as referenced in the scripts.
+3. **Running Examples**:
 
-3. **Running Examples**:  
    - To run a benchmark or demo, execute the relevant script in the `Scripts/` folder, e.g.:
      ```
      python Scripts/OpenMaps.py
      ```
    - Modify parameters in the scripts to suit your experimental setup.
 
-### Folder Structure
+### Folder/Files Structure
 
 - `Data/` - Example data files (not included).
-- `Deconvolution/` - Algorithm implementations.
+- `Deconvolution.py` - Algorithm implementations.
 - `README.md` - Project overview and instructions.
-
