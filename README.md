@@ -1,6 +1,6 @@
-# Deconvolution Algorithms review for US and THz NDE applications
+# Deconvolution Algorithms review for UT and THz NDE applications
 
-This repository provides a comprehensive review and implementation of deconvolution algorithms for Ultrasonic (US) and Terahertz (THz) Non-Destructive Evaluation (NDE) applications. The codebase includes scripts for generating synthetic signals, adding noise, and benchmarking various deconvolution methods such as OMP, MUSIC, L1, and AR algorithms.
+This repository provides a comprehensive review and implementation of deconvolution algorithms for Ultrasonic Testing (UT) and Terahertz (THz) Non-Destructive Evaluation (NDE) applications. The codebase includes scripts for generating synthetic signals, adding noise, and benchmarking various deconvolution methods such as OMP, MUSIC, L1, and AR algorithms.
 
 ### Features
 
@@ -12,7 +12,7 @@ This repository provides a comprehensive review and implementation of deconvolut
 
 ### Demo
 
-The `.ipynb` file demonstrates and compares deconvolution algorithms on US and THz NDE signals with visualization.
+The `.ipynb` file demonstrates and compares deconvolution algorithms on UT and THz NDE signals with visualization.
 
 ### Getting Started
 
