@@ -35,3 +35,21 @@ The `.ipynb` file demonstrates and compares deconvolution algorithms on UT and T
 - `Data/` - Example data files (not included).
 - `Deconvolution.py` - Algorithm implementations.
 - `README.md` - Project overview and instructions.
+
+### Cite the review paper
+This git is the code for the paper: **Stratigraphic reconstruction from terahertz and ultrasonic signals by deconvolution: A review**
+
+Cite as:
+@article{ZITO2026103524,
+title = {Stratigraphic reconstruction from terahertz and ultrasonic signals by deconvolution: A review},
+journal = {NDT & E International},
+volume = {158},
+pages = {103524},
+year = {2026},
+issn = {0963-8695},
+doi = {https://doi.org/10.1016/j.ndteint.2025.103524},
+url = {https://www.sciencedirect.com/science/article/pii/S0963869525002051},
+author = {Rocco Zito and Haolian Shi and Marco Ricci and Stefano Laureti and D.S. Citrin and Alexandre Locquet},
+keywords = {Deconvolution, Stratigraphy, Terahertz, Ultrasound, Matching pursuit, Sparse deconvolution, Autoregressive spectral extrapolation, MUltiple SIgnal Classification},
+abstract = {Nondestructive evaluation techniques, such as terahertz and ultrasonic testing, use short pulses to probe layered materials and reconstruct their stratigraphy by analyzing time delays between echoes at internal interfaces. However, when layers are sufficiently thin, successive echoes temporally overlap, making direct identification of their number and timing challenging. In such cases, deconvolution techniques are employed to extract the impulse response or key features such as echo locations and amplitudes, improving resolution of the local stratigraphy. This review examines four widely used deconvolution algorithms for stratigraphic reconstruction under the assumption of a sparse impulse response, where layer boundaries are modeled as discrete, sharp echoes. Two time-domain methods—orthogonal matching pursuit and ℓ1-norm-based sparse deconvolution—and two frequency-domain approaches—multiple signal classification and autoregressive spectral extrapolation—are discussed. Their theoretical foundations, practical implementation, and comparative performance are evaluated using synthetic signals and experimental echograms from terahertz pulsed imaging and ultrasound sonography. These techniques enhance the ability to distinguish closely spaced interfaces and are applicable to defect detection in materials, tissue-layer analysis in medical diagnostics, and preprocessing for 3D imaging.}
+}
